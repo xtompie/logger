@@ -1,0 +1,23 @@
+{
+    "name": "xtompie/logger",
+    "autoload": {
+        "psr-4": {
+            "Xtompie\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomasz Pielczyk",
+            "email": "tomasz.pielczyk@gmail.com"
+        }
+    ],
+    "description": "Tool for write logs to file",
+    "keywords": ["logger", "log", "file"],
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests"
+    }
+}
